@@ -2,6 +2,8 @@
 *{
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5em;
+    cursor: default;
+    
     
 }
 body{
@@ -31,10 +33,27 @@ h1{
 .hidden{
     display: none;
 }
+.przel{
+    cursor: pointer;
+}
+
 
 @keyframes bodyAnimate {
     0% {opacity: 0%;}
     100% {opacity: 100%;}
+}
+.custom1{
+    list-style: georgian;
+}
+.custom2{
+    list-style: decimal-leading-zero;
+}
+.custom3{
+    list-style: armenian;
+}
+.custom4{
+    list-style: disc;
+    
 }
 
 

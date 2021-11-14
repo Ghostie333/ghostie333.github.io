@@ -16,6 +16,6 @@ window.onload = function() {
             ukryj[i].classList.toggle("hidden")
         }
     }
-    
+   
 
 }

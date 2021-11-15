@@ -8,15 +8,16 @@
 }
 body{
     background-color: #191919;
+    background-image: linear-gradient(to right, #191919, #383838);
     color: rgb(192, 192, 192);
     animation: bodyAnimate 1s ease-in-out;
     
 }
 .spis{
-    margin: 20px;
-    font-size: 18px;
+    margin: 50px;
+    font-size: 22px;
     background-color: rgba(52, 53, 52, 0.198);
-    width: 500px;
+    width: 600px;
     padding: 40px;
     border: 3px solid rgb(167, 167, 167);
     border-radius: 3em;
@@ -27,14 +28,18 @@ h1{
     text-align: center;
 }
 .toyota_logo{
+    position: fixed;
+    top: 40px;
+    right: 40px;
     width: 30%;
-    margin: 10%;
 }
 .hidden{
     display: none;
 }
 .przel{
     cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 
 
